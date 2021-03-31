@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+    background-image:url(./img/background.jpg);
+    background-size: cover;
+}
+.cards_1 {
+    background-color: white;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin:0 auto;
+   width: 500px;
+   height: 400px;
+   margin-top:190px;
+/*border:1px solid black ;*/
+}
+.card_title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 50px 40px 30px 30px;
+    
+
+}
+.card_title img {
+    width: 40px;
+    height: 30px;
+}
+
+ .card_title h1 {
+     font-size: 35px;
+     font-weight: 700;
+
+ }
+.card_text {
+    display: flex;
+    justify-content:flex-start;
+    align-items: flex-start;
+    flex-direction:column;
+    width: 500px;
+
+}
+.card_text hr{
+    width:500px;
+}
+
+.card_text-visa {
+   display: flex;
+   justify-content:flex-start;
+   align-items: flex-start;
+   flex-direction: row;
+   padding: 20px 10px 10px ;
+}
+
+.card_text-visa  img{
+    width:150px;
+    height: 40px;
+
+    
+}
+.card_text-visa h2 {
+    font-size: 20px;
+    font-weight: 400;
+    color: #a5a58d;
+
+}
+.card_text-mactercard {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+    padding: 15px 10px 10px ;
+
+}
+.card_text-mactercard > img{
+    width: 150px;
+    height: 50px;
+
+}
+.card_text-mactercard h2{
+    font-size: 20px ;
+    font-weight: 400;
+    padding-right:100px;
+}
+/* .card_text-mactercard {
+   
+} */
+.card_text-maestro {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+    padding: 15px 10px 10px;
+}
+.card_text-maestro  img{
+    width: 150px;
+    height: 50px;
+}
+.card_text-maestro h2 {
+    font-size: 20px;
+    font-weight: 400;
+    color: #a5a58d;
+}
+.box{
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    width: 500px ;
+    height: 100px;
+}
+.box h3{
+    font-size: 20px;
+    font-weight: 400;
+    color:white;
+}
+.box img {
+    width: 40px;
+    height: 30px;
+}
+
+
